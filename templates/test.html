@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color:lightcyan;
+        }
+        </style>
+</head>
+<body>
+    <form method="POST" name="redirect" action="https://uat.qartpay.com/crm/jsp/merchantpay">
+        <input type="hidden" name="AMOUNT" value="100">
+        <input type="hidden" name="CURRENCY_CODE" value="356">
+        <input type="hidden" name="CUST_NAME" value="ashok sharma">
+        <input type="hidden" name="CUST_EMAIL" value="ashok@csgtech.in">
+        <input type="hidden" name="CUST_PHONE" value="9911480245">
+        <input type="hidden" name="HASH" value="CCD213B7DEBCEC69B92E14972CA75002F2A51FF0ACB757E311EEEE8A3E4D60E3">
+        <input type="hidden" name="MOP_TYPE" value="115">
+        <input type="hidden" name="ORDER_ID" value="ORDpcecNQXC">
+        <input type="hidden" name="PAYMENT_TYPE" value="WL">
+        <input type="hidden" name="PAY_ID" value="2104291057251151">
+        <input type="hidden" name="PRODUCT_DESC" value="Test Payment">
+        <input type="hidden" name="RETURN_URL" value="http://127.0.0.1:8000/response">
+        <input type="hidden" name="TXNTYPE" value="SALE">
+        <input type="hidden" name="UPI" value="9911480245@ybl">
+
+
+        <input type="hidden" name="CARD_NUMBER" value="">
+        <input type="hidden" name="CARD_EXP_DT" value="">
+        <input type="hidden" name="CVV" value="">
+        <input type="submit">
+
+    </form>
+    <!-- <input type="submit"> -->
+</html>
